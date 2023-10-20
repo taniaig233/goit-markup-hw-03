@@ -8,8 +8,15 @@ body {
   list-style-type: none;
   display: flex;
   gap: 40px;
+}
+
+.menu-item-nav {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.menu-item {
+  gap: 24px;
 }
 
 .menu-image {
@@ -54,10 +61,13 @@ body {
 
 .menu-item-contacts {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-item-image {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .link {
@@ -269,6 +279,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--CLOUD, #f4f4fd);
+  display: inline-block;
 }
 
 h1,
@@ -333,7 +344,7 @@ header {
   padding-bottom: 32px;
 }
 
-.third-title-boxtwo {
+.third-title-box2 {
   display: flex;
   width: 360px;
   flex-direction: column;
