@@ -120,8 +120,8 @@ body {
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
   text-decoration: none;
-  margin-right: 1169px;
   display: inline-block;
+  margin-right: 1169px;
   margin-bottom: 16px;
 }
 
@@ -279,7 +279,6 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--CLOUD, #f4f4fd);
-  display: inline-block;
 }
 
 h1,
