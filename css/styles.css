@@ -11,8 +11,7 @@ body {
 }
 
 .menu-item-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .menu-item {
