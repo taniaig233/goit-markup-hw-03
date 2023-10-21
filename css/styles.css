@@ -10,13 +10,8 @@ body {
   gap: 40px;
 }
 
-.menu-item-nav {
-  padding: 24px 0;
-}
-
 .menu-item {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
@@ -48,6 +43,7 @@ body {
   row-gap: 32px;
   align-items: flex-start;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .main-contacts {
@@ -365,4 +361,12 @@ header .logo-type {
 
 footer .logo-type-footer {
   display: flex;
+}
+
+.main-navigation > .a {
+  padding: 24px 0;
+}
+
+.main-footer > .a {
+  display: inline-block;
 }
