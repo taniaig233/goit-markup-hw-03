@@ -329,12 +329,6 @@ img {
   flex-wrap: wrap;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .main-navigation {
   display: flex;
   align-items: center;
