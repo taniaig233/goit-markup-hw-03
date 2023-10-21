@@ -379,3 +379,7 @@ header .logo-type {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+#footer a {
+  display: inline-block;
+}
