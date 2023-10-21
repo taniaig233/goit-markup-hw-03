@@ -15,11 +15,10 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.menu-item-nav {
+.link {
   padding: 24px 0;
 }
 
@@ -115,6 +114,7 @@ body {
 }
 
 .logo-type-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -123,7 +123,6 @@ body {
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
   text-decoration: none;
-  display: inline-block;
   margin-right: 1169px;
   margin-bottom: 16px;
 }
@@ -159,17 +158,16 @@ body {
 }
 
 .main-type-button {
+  display: block;
   cursor: pointer;
   background: var(--IRIS, #4d5ae5);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   color: #ffffff;
-  display: block;
   min-width: 169px;
   height: 56px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   align-items: flex-start;
@@ -307,12 +305,33 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-third-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-fourth-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-container {
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -342,7 +361,6 @@ header .logo-type {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 32px;
@@ -354,15 +372,10 @@ header .logo-type {
   width: 360px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-right: 16px;
   padding-left: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.main-footer > .logo-type-footer {
-  display: inline-block;
 }
