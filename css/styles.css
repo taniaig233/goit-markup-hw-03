@@ -19,6 +19,10 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.menu-item-nav {
+  padding: 24px 0;
+}
+
 .menu-image {
   list-style-type: none;
   display: flex;
@@ -359,14 +363,6 @@ header .logo-type {
   border-top: none;
 }
 
-footer .logo-type-footer {
-  display: flex;
-}
-
-.main-navigation > .a {
-  padding: 24px 0;
-}
-
-.main-footer > .a {
+.main-footer > .logo-type-footer {
   display: inline-block;
 }
