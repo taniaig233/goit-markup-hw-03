@@ -114,7 +114,6 @@ body {
 }
 
 .logo-type-footer {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -380,6 +379,6 @@ header .logo-type {
   border-top: none;
 }
 
-#footer a {
+.inline-block {
   display: inline-block;
 }
